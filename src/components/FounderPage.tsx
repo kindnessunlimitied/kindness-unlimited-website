@@ -42,11 +42,11 @@ const FounderPage: React.FC<FounderPageProps> = ({ onLogoClick }) => {
             {/* Founder Photo and Name */}
             <div className="text-center mb-16">
               <div className="w-64 h-64 mx-auto mb-8 rounded-full overflow-hidden border-4 border-yellow-400 shadow-xl">
-                <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                  <svg className="w-24 h-24 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                  </svg>
-                </div>
+                <img 
+                  src="/gallery/radu.jpg" 
+                  alt="Radu Brylynskei" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 charity-title">
                 Radu Brylynskei
