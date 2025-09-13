@@ -43,7 +43,7 @@ const FounderPage: React.FC<FounderPageProps> = ({ onLogoClick }) => {
             <div className="text-center mb-16">
               <div className="w-64 h-64 mx-auto mb-8 rounded-full overflow-hidden border-4 border-yellow-400 shadow-xl">
                 <img 
-                  src="/gallery/radu.jpg" 
+                  src="/gallery/radu-founder.jpg" 
                   alt="Radu Brylynskei" 
                   className="w-full h-full object-cover"
                 />
